@@ -9,7 +9,7 @@ import TextInformative2 from '../components/textInformative2.vue';
     <main>
         <section class="w-full grid place-items-center text-center relative bg-grid h-screen py-[10vh]">
             <div class="absolute inset-0 object-fill w-full h-full bg-image-icons opacity-[.5]"></div>
-            <div class="relative grid place-items-center gap-6 fontCool md:w-[40%] md:scale-[.8] 2xl:scale-0">
+            <div class="relative grid place-items-center gap-6 fontCool md:w-[40%] md:scale-[.8] 2xl:scale-1">
                 <TextInformative1 text="Somos" />
                 <TextInformative2 text="Una Creativa" class="rotate-12" />
                 <TextInformative1 text="Agencia" />
