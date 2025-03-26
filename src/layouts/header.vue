@@ -18,7 +18,7 @@ const toggleMenu = () => {
         </nav>
         <img src="/logo.png"
             class="w-[40%] h-[50%] px-10 rounded-2xl border-[#F37659] border-[1px] bg-white object-contain md:h-full md:rounded-3xl md:w-[12%] md:mt-10"
-            alt="logo woomedia">
+            alt="logo wowmedia">
         <nav class="gap-4 text-white font-bold hidden md:flex">
             <a class="block text-xl cursor-pointer hover-text-companie" href="#">Nosotros</a>
             <a class="block text-xl cursor-pointer hover-text-companie" href="#">Contacto</a>

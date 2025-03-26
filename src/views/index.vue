@@ -1,7 +1,10 @@
 <script setup lang="ts">
+import Beneficts from '../components/beneficts.vue';
 import CardService from '../components/cardService.vue';
+import Contact from '../components/contact.vue';
 import TextInformative1 from '../components/textInformative1.vue';
 import TextInformative2 from '../components/textInformative2.vue';
+import Footer from '../layouts/footer.vue';
 
 </script>
 
@@ -24,15 +27,23 @@ import TextInformative2 from '../components/textInformative2.vue';
                 <div class="wave"></div>
             </div-->
         </section>
-        <section class="bg-[#016074] h-screen">
+        <section class="bg-[#016074] py-20 px-2 md:py-0 md:px-0">
             <div class="grid grid-cols-1 gap-5 md:px-10 md:grid-cols-4 md:translate-y-[-25%]">
-                <CardService title="Branding" subtitle="Contamos la historia que tu marca necesita" icon="clock-rotate-left"/>
-            <CardService title="Impulsar" subtitle="Impulsa tu marca en redes sociales" icon="thumbs-up"/>
-            <CardService title="Potencial" subtitle="No solo hacemos marketing, desatamos el potencial de tu negocio. " icon="rocket"/>
-            <CardService title="Creatividad" subtitle="En un mundo digital, la creatividad es tu mayor ventaja. " icon="web-awesome"/>
-        
+                <CardService title="Branding" subtitle="Contamos la historia que tu marca necesita"
+                    icon="clock-rotate-left" />
+                <CardService title="Impulsar" subtitle="Impulsa tu marca en redes sociales" icon="thumbs-up" />
+                <CardService title="Potencial"
+                    subtitle="No solo hacemos marketing, desatamos el potencial de tu negocio. " icon="rocket" />
+                <CardService title="Creatividad" subtitle="En un mundo digital, la creatividad es tu mayor ventaja. "
+                    icon="web-awesome" />
             </div>
+
         </section>
+        <Beneficts/>
+
+        <Contact/>
+
+        <Footer/>
     </main>
 </template>
 
