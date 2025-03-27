@@ -1,8 +1,13 @@
+<script setup lang="ts">
+import Redes from '../components/redes.vue';
+
+</script>
+
 <template>
     <footer class="bg-[#FFF] text-[#F37659] pb-[10vh]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-                <div class="md:col-span-4 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="space-y-4">
                     <div class="flex items-center">
                         <h2 class="text-2xl font-semibold tracking-tight">WOWMEDIA</h2>
                     </div>
@@ -22,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:col-span-3 md:col-start-7">
+                <div class="">
                     <h3 class="text-lg font-medium mb-4">Links</h3>
                     <nav class="flex flex-col space-y-3">
                         <a class="text-[#f36140] hover:text-[#F37659] transition-colors" href="#">Servicios</a>
@@ -31,8 +36,9 @@
                         <a class="text-[#f36140] hover:text-[#F37659] transition-colors" href="#">Contacto</a>
                     </nav>
                 </div>
-                <div class="md:col-span-3">
-                    <img src="/logo.png" class="w-full h-full px-10 rounded-2xl object-contain" alt="logo wowmedia">
+                <div class="grid place-items-center w-[80%] text-center mx-auto">
+                    <img src="/logo.png" class="w-full px-10 rounded-2xl object-contain" alt="logo wowmedia">
+                    <Redes class="justify-center"/>
                 </div>
             </div>
         </div>
