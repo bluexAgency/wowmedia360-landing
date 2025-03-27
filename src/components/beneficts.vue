@@ -6,7 +6,7 @@ import MiniTitle from './miniTitle.vue';
 </script>
 
 <template>
-    <section id="benefits" class="bg-[#FFF] 2xl:h-[80vh] py-20 w-full md:flex justify-center">
+    <section id="benefits" class="bg-[#FFF] py-20 w-full md:flex h-screen justify-center">
 
         <img src="/image-landing.jpg" class="h-[100%] md:w-[50%] 2xl:w-[30%] object-cover bg-center rounded-3xl"
             alt="image of habi">
