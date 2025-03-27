@@ -16,25 +16,25 @@ import Footer from '../layouts/footer.vue';
             <!--div class="absolute inset-0 w-full bg-center bg-no-repeat h-full bg-image-icons md:bg-[auto_100%]"></div-->
 
             <Note title="Estrategia Digital" subtitle="Contamos la historia que tu marca necesita"
-                class="absolute left-[20%] -rotate-12 top-[45%] bg-blue-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute left-[20%] -rotate-12 top-[45%] bg-blue-500 text-white p-4 rounded-lg transition hover:scale-[1.2] shadow-lg hidden md:block " />
             <Note title="SEO Optimizado" subtitle="Aparece en los primeros lugares de Google"
-                class="absolute left-[5%] rotate-6 bg-green-500 text-white p-4 rounded-lg shadow-lg top-[10%] md:top-[40%]" />
+                class="absolute left-[5%] rotate-6 bg-green-500 text-white p-4 rounded-lg transition hover:scale-[1.2] shadow-lg top-[10%] md:top-[40%]" />
             <Note title="Gestión de Redes" subtitle="Aumenta tu engagement con contenido atractivo"
-                class="absolute right-[30%] -rotate-3 top-32 bg-red-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute right-[30%] -rotate-3 top-32 bg-red-500 text-white p-4 rounded-lg transition hover:scale-[1.2] shadow-lg hidden md:block " />
             <Note title="Publicidad Pagada" subtitle="Anuncios optimizados en Google y Meta Ads"
-                class="absolute right-[5%] rotate-2 bg-yellow-500 text-black p-4 rounded-lg shadow-lg top-[13%] md:top-[45%]" />
+                class="absolute right-[5%] rotate-2 bg-yellow-500 text-black p-4 rounded-lg shadow-lg transition hover:scale-[1.2] top-[13%] md:top-[45%]" />
             <Note title="Diseño Gráfico" subtitle="Impacta con logotipos, banners y más"
-                class="absolute right-[30%] -rotate-8 top-[68%] bg-purple-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute right-[30%] -rotate-8 top-[68%] bg-purple-500 text-white p-4 rounded-lg transition hover:scale-[1.2] shadow-lg hidden md:block " />
             <Note title="Email Marketing" subtitle="Llega directamente a tus clientes"
-                class="absolute bg-indigo-500 text-white p-4 rounded-lg shadow-lg top-[70%] left-[60%] -rotate-12 md:rotate-4 md:left-40 md:top-[66%]" />
+                class="absolute bg-indigo-500 text-white p-4 rounded-lg shadow-lg transition hover:scale-[1.2] top-[70%] left-[60%] -rotate-12 md:rotate-4 md:left-40 md:top-[66%]" />
             <Note title="Análisis de Datos" subtitle="Toma decisiones estratégicas basadas en datos"
-                class="absolute right-40 -rotate-10 top-24 bg-gray-700 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute right-40 -rotate-10 top-24 bg-gray-700 text-white p-4 rounded-lg shadow-lg transition hover:scale-[1.2] hidden md:block " />
             <Note title="Contenido Creativo" subtitle="Textos, imágenes y videos que conectan"
-                class="absolute left-[20%] rotate-8 top-[20%] bg-pink-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute left-[20%] rotate-8 top-[20%] bg-pink-500 text-white p-4 rounded-lg shadow-lg transition hover:scale-[1.2] hidden md:block " />
             <Note title="Automatización" subtitle="Optimiza procesos y ahorra tiempo"
-                class="absolute right-96 -rotate-6 top-[35%] bg-teal-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute right-96 -rotate-6 top-[35%] bg-teal-500 text-white p-4 rounded-lg shadow-lg transition hover:scale-[1.2] hidden md:block " />
             <Note title="Marca Personal" subtitle="Construye tu identidad digital"
-                class="absolute left-32 rotate-5 top-32 bg-orange-500 text-white p-4 rounded-lg shadow-lg hidden md:block " />
+                class="absolute left-32 rotate-5 top-32 bg-orange-500 text-white p-4 rounded-lg shadow-lg transition hover:scale-[1.2] hidden md:block " />
 
 
 
