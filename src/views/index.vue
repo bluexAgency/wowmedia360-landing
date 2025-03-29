@@ -45,30 +45,36 @@ import Footer from '../layouts/footer.vue';
                 <TextInformative2 text="Marketing" class="-rotate-12" />
             </div>
 
-            <a href="#benefits"  class="absolute transition-all cursor-pointer hover:scale-[1.2] left-[6%] top-[65%] w-[15vh] md:w-[25vh] md:left-[30%] md:top-[60%] -rotate-[30deg]">
-                <img src="/icons/mega.png" class="h-full w-full"/>
+            <a href="#benefits"
+                class="absolute transition-all cursor-pointer hover:scale-[1.2] left-[6%] top-[65%] w-[15vh] md:w-[25vh] md:left-[30%] md:top-[60%] -rotate-[30deg]">
+                <img src="/icons/mega.png" class="h-full w-full" />
             </a>
-        
+
             <!--div class="absolute bottom-0 z-[1]">
                 <div class="wave"></div>
                 <div class="wave"></div>
                 <div class="wave"></div>
             </div-->
         </section>
-        <section class="bg-[#016074] py-20 px-2 grid grid-cols-1 gap-5 snap-center md:grid-cols-4 md:py-20 md:px-0">
-            <CardService title="Branding" subtitle="Contamos la historia que tu marca necesita"
-                icon="clock-rotate-left" />
-            <CardService title="Impulsar" subtitle="Impulsa tu marca en redes sociales" icon="thumbs-up" />
-            <CardService title="Potencial" subtitle="No solo hacemos marketing, desatamos el potencial de tu negocio. "
-                icon="rocket" />
-            <CardService title="Creatividad" subtitle="En un mundo digital, la creatividad es tu mayor ventaja. "
-                icon="web-awesome" />
+        <Beneficts class="snap-center" />
+
+        <section class="bg-[#016074] py-20 px-2 grid grid-cols-1 gap-5 snap-center md:grid-cols-4 md:py-20 md:px-20">
+            <CardService title="Branding" icon="clock-rotate-left"
+                description="En un mercado saturado, la diferenciación es clave. Nuestro servicio de branding se enfoca en construir una narrativa auténtica y poderosa que resuene con tu audiencia. " />
+
+            <CardService title="Impulsar" icon="thumbs-up"
+                description="Las redes sociales son una herramienta poderosa para el crecimiento de tu marca. Nuestro equipo de expertos en marketing digital se encargará de diseñar estrategias personalizadas que aumenten tu visibilidad y engagement. " />
+
+            <CardService title="Potencial" icon="rocket"
+                description="Creemos que cada negocio tiene un potencial único esperando ser descubierto. A través de un análisis profundo y estrategias innovadoras, no solo te ayudamos a alcanzar tus objetivos de marketing." />
+
+            <CardService title="Creatividad" icon="web-awesome"
+                description="La creatividad es el motor que impulsa la innovación y la conexión en el entorno digital. Nuestro equipo de creativos está dedicado a desarrollar campañas únicas y memorables que capturan la atención de tu audiencia." />
         </section>
-        <Beneficts class="snap-center"/>
 
-        <Contact class="snap-center"/>
+        <Contact class="snap-center" />
 
-        <Footer class="snap-start"/>
+        <Footer class="snap-start" />
     </main>
 </template>
 
