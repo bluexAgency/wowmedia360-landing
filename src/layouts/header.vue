@@ -20,7 +20,7 @@ const toggleMenu = () => {
             class="w-[40%] h-[50%] px-10 rounded-2xl border-[#F37659] border-[1px] bg-white object-contain md:h-full md:rounded-3xl md:w-[12%] md:mt-10"
             alt="logo wowmedia">
         <nav class="gap-4 text-white font-bold hidden md:flex">
-            <a class="block text-xl cursor-pointer hover-text-companie" href="#">Nosotros</a>
+            <router-link to="/about" class="block text-xl cursor-pointer hover-text-companie">Nosotros</router-link>
             <a class="block text-xl cursor-pointer hover-text-companie" href="#">Contacto</a>
         </nav>
 
@@ -36,7 +36,7 @@ const toggleMenu = () => {
             <nav class="gap-4 text-[#F37659] font-bold block text-center">
                 <a class="block text-3xl cursor-pointer mb-[2vh] hover-text-companie" href="#">Servicios</a>
                 <a class="block text-3xl cursor-pointer mb-[2vh] hover-text-companie" href="#">Blog</a>
-                <a class="block text-3xl cursor-pointer mb-[2vh] hover-text-companie" href="#">Nosotros</a>
+            <router-link to="/about" class="block text-xl cursor-pointer hover-text-companie">Nosotros</router-link>
                 <a class="block text-3xl cursor-pointer mb-[2vh] hover-text-companie" href="#">Contacto</a>
             </nav>
         </div>
